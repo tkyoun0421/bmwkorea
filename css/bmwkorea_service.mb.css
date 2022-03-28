@@ -44,7 +44,7 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
 
 div.mainWrap>div.main{
     height: 360px;
-    background-image: url('./Images/pc_service/main_pic01_mb.png');
+    background-image: url('./images/service/main_pic01_mobile.png');
 }
 
 /* 컨텐츠1 */
@@ -71,7 +71,7 @@ div.bnrWrap{
     display: none;
 }
 
-/* 컨텐츠3 */
+/* 컨텐츠2 */
 
 div.cntWrap>div.content.cnt02>div.header>h2{
     font-size: 18px;
@@ -81,7 +81,7 @@ div.cntWrap>div.content.cnt02>div.header>p{
     display: none;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
-    background-image: url('./Images/pc_service/cnt02_pic01_mb.png');
+    background-image: url('./images/service/cnt02_pic01_mobile.png');
     height: 280px;
 }
 

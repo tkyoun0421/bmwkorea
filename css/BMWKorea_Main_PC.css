@@ -106,7 +106,7 @@ div.mainWrap{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_main/main_pic05.jpg');
+    background-image: url('./images/main/main_pic01.jpg');
     height: 100%;
     width: auto;
     position: relative;
@@ -143,7 +143,7 @@ div.mainWrap>div.main>div.texts>div.M>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_main_m_pic01.png');
+    background-image: url('./images/main/main_m_pic01.png');
     height: 23px;
     width: calc(100% / 12 * 0.9);
     float: left;
@@ -246,14 +246,14 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i1{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_cnt01_pic01.png');
+    background-image: url('./images/main/cnt01_pic01_pc.png');
     float: left;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.image.i3{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_cnt01_pic03.png');
+    background-image: url('./images/main/cnt01_pic03_pc.png');
     float: left;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
@@ -316,13 +316,13 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.ovrGrid>div.inGrid>div
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_main/cnt01_pic02.png');
+    background-image: url('./images/main/cnt01_pic02_pc.png');
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.ovrGrid>div.inGrid>div.image.i4{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_main/cnt01_pic04.png');
+    background-image: url('./images/main/cnt01_pic04_pc.png');
     float: right;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.ovrGrid>div.inGrid>div.texts{
@@ -384,31 +384,31 @@ div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView{
     float: left;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView:nth-child(1){
-    background-image: url('./Images/pc_main/bnr01_pic01.jpg');
+    background-image: url('./images/main/bnr01_pic01_pc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView:nth-child(2){
-    background-image: url('./Images/pc_main/bnr01_pic02.jpg');
+    background-image: url('./images/main/bnr01_pic02_pc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView:nth-child(3){
-    background-image: url('./Images/pc_main/bnr01_pic03.jpg');
+    background-image: url('./images/main/bnr01_pic03_pc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView:nth-child(4){
-    background-image: url('./Images/pc_main/bnr01_pic04.jpg');
+    background-image: url('./images/main/bnr01_pic04_pc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView:nth-child(5){
-    background-image: url('./Images/pc_main/bnr01_pic05.jpg');
+    background-image: url('./images/main/bnr01_pic05_pc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -472,7 +472,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_cnt02_pic01.png');
+    background-image: url('./images/main/cnt02_pic01_pc.png');
     height: 520px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.texts{
@@ -561,13 +561,13 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.image.i1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_cnt02_pic02.png');
+    background-image: url('./images/main/cnt02_pic02_pc.png');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.image.i2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_cnt02_pic03.png');
+    background-image: url('./images/main/cnt02_pic03_pc.png');
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.texts::after{
     content: '';
@@ -667,25 +667,25 @@ div.bnrWrap>div.banner.bnr02>div.boxes>div.image.i1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_bnr02_pic01.png');
+    background-image: url('./images/main/bnr02_pic01_pc.png');
 }
 div.bnrWrap>div.banner.bnr02>div.boxes>div.image.i2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_bnr02_pic02.png');
+    background-image: url('./images/main/bnr02_pic02_pc.png');
 }
 div.bnrWrap>div.banner.bnr02>div.boxes>div.image.i3{    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_bnr02_pic03.png');
+    background-image: url('./images/main/bnr02_pic03_pc.png');
 }
 div.bnrWrap>div.banner.bnr02>div.boxes>div.image.i4{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_bnr02_pic04.png');
+    background-image: url('./images/main/bnr02_pic04_pc.png');
 }
 div.bnrWrap>div.banner.bnr02>div.boxes>div.texts{
     color: white;

@@ -60,7 +60,7 @@ div.bnrWrap>div.banner.bnr01>div.image>div.texts>h3{
 /* 컨텐츠2 */
 
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
-    background-image: url('./Images/pc_service/cnt02_pic01_tab.png');
+    background-image: url('./images/service/cnt02_pic01_tablet.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

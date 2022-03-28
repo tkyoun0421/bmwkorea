@@ -27,7 +27,7 @@ div.hdrWrap>div.header>div.hdrLeft>div.logo{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/BMW-Logo-PNG-Images-HD.png');
+    background-image: url('./images/BMW-Logo-PNG-Images-HD.png');
     height: 60px;
     width: calc(100% / 12 - 20px);
     float: left;
@@ -107,7 +107,7 @@ div.mainWrap{
 div.mainWrap>div.main{
     height: 680px;
     width: 100vw;
-    background-image: url('./Images/pc_service/main_pic01.png');
+    background-image: url('./images/service/main_pic01_pc.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,7 +149,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artLeft{
 }
 div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.image{
     height: 280px;
-    background-image: url('./Images/pc_service/cnt01_pic01.png');
+    background-image: url('./images/service/cnt01_pic01_pc.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,7 +178,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artRight{
 }
 div.cntWrap>div.content.cnt01>div.section>div.artRight>div.image{
     height: 280px;
-    background-image: url('./Images/pc_service/cnt01_pic02.png');
+    background-image: url('./images/service/cnt01_pic02_pc.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -225,7 +225,7 @@ div.bnrWrap{
 div.bnrWrap>div.banner.bnr01{}
 div.bnrWrap>div.banner.bnr01>div.image{
     height: 440px;
-    background-image: url('./Images/pc_service/bnr01_pic01.png');
+    background-image: url('./images/service/bnr01_pic01_pc.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,7 +271,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article{
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
     height: 440px;
-    background-image: url('./Images/pc_service/cnt02_pic01.png');
+    background-image: url('./images/service/cnt02_pic01_pc.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,7 +317,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h5{
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.icon{
     float: right;
-    background-image: url('./Images/pc_service/cnt03_pic01.png');
+    background-image: url('./images/service/cnt03_pic01.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +350,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artMid>div.article>div.texts>h5{
 }
 div.cntWrap>div.content.cnt03>div.section>div.artMid>div.article>div.icon{
     float: right;
-    background-image: url('./Images/pc_service/cnt03_pic02.png');
+    background-image: url('./images/service/cnt03_pic02.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,7 +381,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h5{
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.icon{
     float: right;
-    background-image: url('./Images/pc_service/cnt03_pic03.png');
+    background-image: url('./images/service/cnt03_pic03.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -481,7 +481,7 @@ div.ftrWrap>div.footer>div.ftrRight>div.sns>div.youtube{
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_ftr_pic01.png');
+    background-image: url('./images/pc_ftr_pic01.png');
     width: 35px;
     height: 35px;
 }
@@ -489,7 +489,7 @@ div.ftrWrap>div.footer>div.ftrRight>div.sns>div.facebook{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_ftr_pic02.png');
+    background-image: url('./images/pc_ftr_pic02.png');
     width: 35px;
     height: 35px;
 }
@@ -497,7 +497,7 @@ div.ftrWrap>div.footer>div.ftrRight>div.sns>div.insta{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_ftr_pic03.png');
+    background-image: url('./images/pc_ftr_pic03.png');
     width: 35px;
     height: 35px;
 }
@@ -505,7 +505,7 @@ div.ftrWrap>div.footer>div.ftrRight>div.sns>div.kakao{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./Images/pc_ftr_pic04.png');
+    background-image: url('./images/pc_ftr_pic04.png');
     width: 35px;
     height: 35px;
 }

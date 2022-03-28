@@ -1,0 +1,42 @@
+/* 공통 */
+div.cntWrap{
+    margin-top: 40px;
+}
+div.cntWrap>div.content{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 440px;
+}
+div.bnrWrap.bnrWrap01{
+    margin-top: 40px;
+}
+div.bnrWrap>div.banner{
+    width: 90%;
+    max-width: 440px;
+}
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 440px;
+}
+div.hdrWrap>div.header>div.hdrLeft>div.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    min-width: 40px;
+}
+div.hdrWrap>div.header>div.hdrLeft>ul.nav{
+    display: none;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
+    display: none;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
+    display: block;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
+    display: none;
+}
+div.vedioWrap>video{
+    height: 360px;
+}
