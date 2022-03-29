@@ -19,7 +19,7 @@ div.hdrWrap>div.header{
     width: 90%;
     max-width: 440px;
 }
-div.hdrWrap>div.header>div.hdrLeft>div.logo{
+div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     width: 40px;
     height: 40px;
     margin-top: 20px;
@@ -31,8 +31,36 @@ div.hdrWrap>div.header>div.hdrLeft>ul.nav{
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
     display: none;
 }
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
+    display: none;
+}
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
     display: block;
+}
+/* 메인 */
+div.mainWrap>div.main>div.texts{
+    padding: 140px 0 40px 10px;
+}
+div.mainWrap>div.main>div.texts>h5{
+    line-height: 20px;
+}
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+div.mainWrap>div.main>div.texts>div.M>div.image{
+    width: calc(100% / 4 * 0.1);
+    height: 10px;
+    margin-top: 5px;
+}
+div.mainWrap>div.main>div.texts>div.M>h4{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+div.mainWrap>div.main>div.texts>div.btn{
+    width: calc(100% / 5 * 0.5);
+    min-width: 160px;
 }
 /* 메인 */
 div.mainWrap{

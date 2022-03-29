@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
 }
 /* 헤더 */
+
 div.hdrWrap{
     width: 100vw;
     position: relative;
@@ -23,6 +24,7 @@ div.hdrWrap>div.header::after{
     clear: both;
 }
 div.hdrWrap>div.header>div.hdrLeft{}
+div.hdrWrap>div.header>div.hdrLeft>div.logo{}
 div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     background-size: cover;
     background-position: center;
@@ -74,7 +76,7 @@ div.hdrWrap>div.header>div.hdrRight{
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu{}
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
-    float: left;
+    float: right;
     font-size: 25px;
     margin-left: 20px;
     cursor: pointer;

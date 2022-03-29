@@ -19,7 +19,7 @@ div.hdrWrap>div.header{
     width: 90%;
     max-width: 440px;
 }
-div.hdrWrap>div.header>div.hdrLeft>div.logo{
+div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     width: 40px;
     height: 40px;
     margin-top: 20px;
@@ -31,12 +31,9 @@ div.hdrWrap>div.header>div.hdrLeft>ul.nav{
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
     display: none;
 }
-div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
-    display: block;
-}
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
     display: none;
 }
-div.vedioWrap>video{
-    height: 360px;
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
+    display: block;
 }
