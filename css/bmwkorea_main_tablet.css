@@ -121,6 +121,9 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01{
     max-width: 700px;
     height: 400px;
 }
+div.bnrWrap>ul.paging{
+    left: 36%;
+}
 div.cntWrap>div.content.cnt02>div.header>h2{
     font-size: 35px;
     line-height: 40px;

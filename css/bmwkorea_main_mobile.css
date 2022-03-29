@@ -146,8 +146,22 @@ div.bnrWrap.bnrWrap01>div.banner.bnr01{
     max-width: 440px;
     height: 320px;    
 }
+div.bnrWrap>div.banner.bnr01>div.bnrGroup>div.indexView{
+    height: 240px;
+}
 div.bnrWrap.bnrWrap01>div.banner.bnr01>ul.btn{
     padding: 280px 0 0 calc(100% / 4 - 10px);
+}
+div.bnrWrap>ul.paging{
+    bottom: 20px;
+    left: 20%;
+}
+div.bnrWrap>ul.paging>li{
+    width: 12px;
+    height: 12px;
+}
+div.bnrWrap>ul.paging>li.show{
+    width: 40px;
 }
 /* 컨텐츠2 */
 div.cntWrap>div.content.cnt02{
@@ -211,7 +225,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.image.i1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('./images/main/cnt01_pic02_mobile.png');
+    background-image: url('./images/main/cnt02_pic02_mobile.png');
     height: 160px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.image.i2{
