@@ -134,158 +134,204 @@ div.cntWrap>div.content>div.section div.texts>h5{
 }
 
 /* 컨텐츠1 */
-div.cntWrap.cntWrap01>div.content.cnt01{
-    outline: 1px solid blue;
-    width: 160vw;
-    max-width: none;
-    margin: 0;
+div.cntWrap>div.content.cnt01{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
 }
-div.cntWrap>div.content.cnt01::after{
+div.cntWrap>div.content.cnt01>div.header{    
+    font-family: "Noto Sans KR";
+}
+div.cntWrap>div.content.cnt01>div.header>h2{    
+    line-height: 40px;
+    font-family: "roboto";
+}
+div.cntWrap>div.content.cnt01>div.header>h5{
+    text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: calc(100% / 12 * 6);
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    margin-top: 40px;
+    letter-spacing: -0.025em;
+    text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView:hover>div.mouseHover{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.mouseHover{
+    background-image: url('./images/mousehover.png');
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -370px;
+    margin: auto;
+    animation-name: mouse_hover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes mouse_hover{
+    from {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+    to {
+        transform: translateY(25px);
+        opacity: 0.5;
+    }
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    width: 500%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup::after{
     content: '';
     display: block;
     clear: both;
 }
-div.cntWrap>div.content.cnt01>div.artLeft{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    height: 520px;
+    width: calc(100% / 5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
-    margin: 0 10px;
-    margin-left: calc((100% - 1080px) / 2 );
-    max-width: 590px;
-    width: 36%;
-    height: 520px;
-    overflow: hidden;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView{
-    height: 2080px;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article:hover>div.texts{
+    margin-top: 0px;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article{
-    height: 520px;
-    overflow: hidden;
-}
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.image{
-    height: 520px;
-}
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article:hover>div.texts{
-    margin-top: -520px;
-}
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.image.i1{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article.i1{
     background-image: url('./images/model/cnt01_pic01_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.image.i2{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article.i2{
     background-image: url('./images/model/cnt01_pic02_bigver.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.image.i3{
-    background-image: url('./images/model/cnt01_pic03_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article.i3{
+    background-image: url('./images/model/deco_boco_img1_4.jpg');
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.image.i4{
-    background-image: url('./images/model/cnt01_pic04_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article.i4{
+    background-image: url('./images/model/cnt01_pic03.jpg');
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.texts{
-    padding: 120px 0;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article.i5{
+    background-image: url('./images/model/bmw-m8-competition-gran-coupe-inspire-mg-exterior-interior-desktop-07.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
+    color: #fff;
     text-align: center;
     font-family: 'Noto Sans KR';
-    color: white;
+    padding: 120px 0;
+    margin-top: 520px;
+    transition: all .5s;
     position: relative;
-    transition: all .5s ;
-    height: 0px;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.texts::after{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts::after{
     content: '';
     display: block;
     width: 100%;
     height: 520px;
     background-color: #000;
-    opacity: 0.7;
+    opacity: 0.2;
     position: absolute;
-    top: 0;
+    top: 0; 
     left: 0;
-    z-index: 1;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.texts>h5{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h5{
     font-size: 16px;
-    line-height: 40px;
-    z-index: 2;
     position: relative;
+    z-index: 5;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.texts>h3{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    line-height: 80px;
     font-size: 30px;
     font-weight: 700;
-    line-height: 80px;
-    z-index: 2;
     position: relative;
+    z-index: 5;
 }
-div.cntWrap>div.content.cnt01>div.artLeft>div.artView>div.article>div.texts>p{
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>p{
     font-size: 14px;
     line-height: 20px;
-    height: 80px;
-    overflow: hidden;
-    width: calc(100% / 8 * 4.5);
+    width: calc(100% / 12 * 3.9);
+    color: #cecece;
     margin: 0 auto;
     margin-top: 80px;
-    z-index: 2;
+    position: relative;
+    z-index: 5;
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
     position: relative;
 }
-div.cntWrap>div.content.cnt01>div.artRight{
-    float: left;
-    margin: 0 10px;
-    width: 45%;
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup{
+    width: 168.5%;
 }
-div.cntWrap>div.content.cnt01>div.artRight>h2{
-    margin: 40px 0;
-    line-height: 40px;
-    font-size: 34px;
-    font-weight: 700;
-    font-family: 'roboto';
-}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images{}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images::after{
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup::after{
     content: '';
     display: block;
     clear: both;
 }
-div.cntWrap>div.content.cnt01>div.artRight>ul.images>li{
-    height: 280px;
-    float: left;
-    width: calc(100% / 3 - 20px);
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article{
+    width: calc(100% / 5 - 20px);
+    height: 360px;
     margin: 0 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    /* cursor: pointer; */
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article:nth-child(3){
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article.i1{
+    background-image: url('./images/model/cnt01_pic01_fix.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article.i2{
+    background-image: url('./images/model/cnt01_pic02_fix.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article.i3{
+    background-image: url('./images/model/cnt01_pic03_fix.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article.i4{
+    background-image: url('./images/model/cnt01_pic04_fix.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article.i5{
+    background-image: url('./images/model/cnt01_pic05_fix.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.btns{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.btns>div.btn{
+    background-color: #000;
+    width: calc(100% / 3);
+    margin: 0 10px 0 15px;
+    height: 360px;
+    opacity: 0;
     cursor: pointer;
-}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images>li.image.i1{
-    background-image: url('./images/model/cnt01_pic02_smallver.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 0;
-}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images>li.image.i2{
-    background-image: url('./images/model/cnt01_pic03_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images>li.image.i3{
-    background-image: url('./images/model/cnt01_pic04_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-div.cntWrap>div.content.cnt01>div.artRight>ul.images>li.image.i4{
-    display: none;
-    background-image: url('./images/model/cnt01_pic01_bigver.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 /* 컨텐츠2 */
 div.cntWrap>div.content.cnt02{
@@ -341,7 +387,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
     height: 360px;
     overflow: hidden;
     margin-top: -80px;
-    min-width: 260px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:hover>div.texts{
     margin-top: -360px;

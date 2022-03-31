@@ -28,60 +28,45 @@ div.cntWrap>div.content.cnt01>div.header{
     font-size: 24px;
     line-height: 40px;
 }
-div.cntWrap>div.content.cnt01>div.section{
-    margin-top: 40px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft{
-    float: none;
-    width: 100%;
-    }
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article{
-    height: 400px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.image{
-    height: 400px;
-    width: calc(100% - 20px);
-    margin: 0 10px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article:hover>div.texts{
-    margin-top: -400px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts{
-    padding: 120px 0 80px;
-    width: calc(100% - 20px);
-    margin: 0 10px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>h5{
-    font-size: 16px;
-    line-height: 40px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>h3{
+div.cntWrap>div.content.cnt01>div.header>h2{
     font-size: 24px;
     line-height: 40px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>p{
-    line-height: 20px;
-    height: 60px;
-    padding-top: 40px;
+div.cntWrap>div.content.cnt01>div.header>h5{
+    font-size: 16px;
+    line-height: 40px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artRight{
-    width: 100%;
+div.cntWrap>div.content.cnt01>div.header>p{
+    width: calc(100% / 8 * 6);
 }
-div.cntWrap>div.content.cnt01>div.section>div.artRight>h2{
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.mouseHover{
     display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article{
-    margin-top: 20px;
-    width: calc(100% / 8 * 3 - 20px);
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    height: 400px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article:nth-child(2)~div.article{
-    display: block;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts{
+    padding: 120px 0 80px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article:nth-child(2){
-    display: none;
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>h3{
+    font-size: 24px;
+    line-height: 40px;
 }
-
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.texts>p{
+    width: calc(100% / 8 * 4.5);
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumbView>div.thumbGroup>div.article{
+    height: 280px;
+}
 /* 컨텐츠2 */
+div.cntWrap>div.content.cnt02{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
 div.cntWrap>div.content.cnt02>div.header>h2{
     font-size: 24px;
     line-height: 40px;
@@ -94,12 +79,24 @@ div.cntWrap>div.content.cnt02>div.header>p{
     margin-top: 30px;
     width: calc(100% / 8 * 5.5);
 }
-div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
-    width: calc(100% / 8 * 3 - 20px);
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.image{
     height: 280px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm{
+    width: 100%;
+    margin-top: -40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
+    height: 280px;
+    margin: 0 10px;
+    min-width: none;
+    width: calc(100% / 3 - 13.4px);
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:nth-child(1){
     margin-left: 0px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:nth-child(3){
+    margin-right: 0px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.image{
     height: 280px;
@@ -120,9 +117,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.texts>h3{
     line-height: 80px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.texts>p{
-    font-size: 12px;
-    width: calc(100% / 3 * 2.8);
-    margin-top: 0;
+    display: none;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.texts>div.btn{
     display: none;
@@ -142,35 +137,9 @@ div.cntWrap>div.content.cnt03>div.header>p{
     margin-top: 30px;
     width: calc(100% / 8 * 3.7);
 }
-div.cntWrap>div.content.cnt03>div.section>div.artLeft{
-    width: calc(50% - 20px);
-}
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
+div.cntWrap>div.content.cnt03>div.section>div.artTop{
     height: 280px;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.texts>h3{
-    font-size: 16px;
-}
-div.cntWrap>div.content.cnt03>div.section>div.artRight{
-    width: calc(50% - 20px);
-}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.texts{
-    margin-top: 0;
-    width: 100%;
-}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.texts>p{
-    font-size: 12px;
-    line-height: 15px;
-    
-}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.image{
-    height: 140px;
-}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article{
-    margin-top: 0;
-    width: calc(100% / 4 * 2 - 20px);
-}
-
 /* 배너 */
 div.bnrWrap{
     height: 360px;
