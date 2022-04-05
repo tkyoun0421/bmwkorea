@@ -164,6 +164,7 @@ div.bnrWrap>ul.paging{
 div.bnrWrap>ul.paging>li{
     width: 12px;
     height: 12px;
+    margin: 0 10px;
 }
 div.bnrWrap>ul.paging>li.show{
     width: 40px;
