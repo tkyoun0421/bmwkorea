@@ -533,12 +533,12 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.texts>div.
     height: 2px;
     background-color: #0166b1;
     position: absolute;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article>div.texts>div.btn:hover::after{
     content: '';
     display: block;
-    width: calc(100%);
+    width: 90%;
     height: 2px;
     background-color: #0166b1;
     position: absolute;
@@ -629,12 +629,12 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.texts>div
     height: 2px;
     background-color: #0166b1;
     position: absolute;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article>div.texts>div.btn:hover::after{
     content: '';
     display: block;
-    width: 100%;
+    width: 90%;
     height: 2px;
     background-color: #0166b1;
     position: absolute;

@@ -113,7 +113,7 @@ div.vedioWrap{
 }
 div.vedioWrap>video{
     width: 100vw;
-    height: 100vh;  
+    height: auto;  
     margin-top: -120px;
 }
 /* 컨텐츠 공통 */
@@ -181,21 +181,22 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.mouseHover{
     left: 0;
     right: 0;
     top: 0;
-    bottom: -370px;
+    bottom: -350px;
     margin: auto;
     animation-name: mouse_hover;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    color: #fff;
 }
 @keyframes mouse_hover{
     from {
         transform: translateY(0);
-        opacity: 0.8;
+        opacity: 1;
     }
     to {
         transform: translateY(25px);
-        opacity: 0.5;
+        opacity: 0.8;
     }
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
@@ -387,6 +388,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
     height: 360px;
     overflow: hidden;
     margin-top: -80px;
+    min-width: 250px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:hover>div.texts{
     margin-top: -360px;
