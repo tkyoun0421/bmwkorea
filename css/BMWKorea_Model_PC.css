@@ -24,7 +24,6 @@ div.hdrWrap>div.header::after{
     clear: both;
 }
 div.hdrWrap>div.header>div.hdrLeft{}
-div.hdrWrap>div.header>div.hdrLeft>div.logo{}
 div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     background-size: cover;
     background-position: center;
@@ -36,10 +35,6 @@ div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     margin: 10px 100px 0 0;
     cursor: pointer;
     min-width: 40px;
-}
-div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
-    width: 70px;
-    height: 60px;
 }
 div.hdrWrap>div.header>div.hdrLeft>ul.nav{
     float: left;
@@ -106,6 +101,11 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:hover::after{
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li>i{}
 
+.nav_bar{
+    opacity: 0;
+    transition: width .5s;
+    display: none;
+}
 /* 영상 */
 div.vedioWrap{
     position: relative;

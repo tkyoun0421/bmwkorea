@@ -69,16 +69,25 @@ div.hdrWrap>div.header>div.hdrLeft>ul.nav>li:hover::after{
 div.hdrWrap>div.header>div.hdrRight{
     float: right;
 }
-div.hdrWrap>div.header>div.hdrRight>ul.menu{}
+div.hdrWrap>div.header>div.hdrRight>ul.menu{
+    position: relative;
+}
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
     float: right;
     font-size: 25px;
     margin-left: 20px;
     cursor: pointer;
-    display: none;
+    position: absolute;
+    right: 0;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
     display: block;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(2){
+    display: none;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
+    display: none;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li::after{
     content: '';
@@ -100,6 +109,11 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:hover::after{
     margin-top: -20px;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li>i{}
+
+.nav_bar{
+    opacity: 0;
+    transition: width .5s;
+}
 
 /* 메인 */
 div.mainWrap{

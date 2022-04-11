@@ -7,7 +7,9 @@ div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     margin-right: calc(100% / 12 - 20px);
     min-width: 60px;
 }
-
+.nav_bar{
+    display: none;
+}
 /* 메인 */
 div.mainWrap>div.main{
     margin: 0 auto;

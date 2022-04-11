@@ -101,6 +101,12 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:hover::after{
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li>i{}
 
+.nav_bar{
+    opacity: 0;
+    transition: width .5s;
+    display: block;
+}
+
 /* 메인 */
 div.mainWrap{
     background-size: cover;

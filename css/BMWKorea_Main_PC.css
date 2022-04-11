@@ -38,7 +38,7 @@ div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     min-width: 40px;
 }
 div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
-    width: 70px;
+    width: 60px;
     height: 60px;
 }
 div.hdrWrap>div.header>div.hdrLeft>ul.nav{
@@ -105,6 +105,11 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:hover::after{
     margin-top: -20px;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li>i{}
+
+.nav_bar{
+    opacity: 0;
+    transition: width .5s;
+}
 
 
 /* 메인 */

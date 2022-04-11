@@ -6,6 +6,9 @@ div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     margin-right: calc(100% / 12 - 20px);
     min-width: 60px;
 }
+.nav_bar{
+    display: none;
+}
 div.mainWrap>div.main{
     width: 90%;
     max-width: 700px;
