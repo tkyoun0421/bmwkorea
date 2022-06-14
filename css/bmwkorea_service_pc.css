@@ -24,6 +24,7 @@ div.hdrWrap>div.header::after{
     clear: both;
 }
 div.hdrWrap>div.header>div.hdrLeft{}
+div.hdrWrap>div.header>div.hdrLeft>div.logo{}
 div.hdrWrap>div.header>div.hdrLeft>div.logo>a{
     background-size: cover;
     background-position: center;
@@ -69,25 +70,16 @@ div.hdrWrap>div.header>div.hdrLeft>ul.nav>li:hover::after{
 div.hdrWrap>div.header>div.hdrRight{
     float: right;
 }
-div.hdrWrap>div.header>div.hdrRight>ul.menu{
-    position: relative;
-}
+div.hdrWrap>div.header>div.hdrRight>ul.menu{}
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
     float: right;
     font-size: 25px;
     margin-left: 20px;
     cursor: pointer;
-    position: absolute;
-    right: 0;
+    display: none;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
     display: block;
-}
-div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(2){
-    display: none;
-}
-div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(3){
-    display: none;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li::after{
     content: '';
@@ -111,6 +103,7 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li:hover::after{
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li>i{}
 
 .nav_bar{
+    display: none;
     opacity: 0;
     transition: width .5s;
 }
@@ -491,6 +484,7 @@ div.ftrWrap>div.footer>div.ftrRight>div.sns{
     margin: 0 10px;
     float: left;
     cursor: pointer;
+    color: rgba(0,0,0,0);
 }
 div.ftrWrap>div.footer>div.ftrRight>div.sns>div.youtube{
     background-size: auto;
